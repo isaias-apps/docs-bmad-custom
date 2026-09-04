@@ -1,0 +1,5 @@
+[workflow]
+persistent_facts = [
+  "Separate confirmed facts from estimates and assumptions explicitly. Do not silently promote an open assumption into a confirmed requirement.",
+  "Every brief closes with an Open Decisions section: what is decided, what must be decided before the PRD, and what can safely be deferred.",
+]

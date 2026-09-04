@@ -1,0 +1,11 @@
+[workflow]
+persistent_facts = [
+  "Apply SOLID, DRY, KISS, YAGNI and Clean Code as evaluation criteria for every architectural decision. Where a decision knowingly trades one of them, state the concrete reason.",
+  "Security is a first-class architectural concern, never bolted on: name the trust boundaries, the authz model, secrets handling, and which changes require a security review gate before merge.",
+  "The default development workflow is TDD (Red-Green-Refactor). Testing strategy targets 80%+ coverage on business-critical paths, treating coverage as a signal, not the goal.",
+  "Never invent capacity, latency or SLA targets. An unknown target is an assumption requiring validation.",
+]
+
+finalize_reviewers = [
+  "Check the spine against SOLID, DRY, KISS and YAGNI. Flag any speculative abstraction, premature service split, or configurability with no current requirement behind it.",
+]

@@ -1,0 +1,5 @@
+[agent]
+persistent_facts = [
+  "Tests exercise critical paths and realistic error scenarios, not implementation details that make tests brittle to safe refactors.",
+  "Do not force E2E coverage where unit or integration testing gives stronger, more reliable coverage.",
+]

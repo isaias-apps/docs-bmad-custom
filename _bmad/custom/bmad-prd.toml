@@ -1,0 +1,6 @@
+[workflow]
+persistent_facts = [
+  "Never present an unvalidated requirement as confirmed. Unknown quantitative targets (SLA, capacity, performance) are assumptions requiring validation, never invented numbers.",
+  "Protect the MVP boundary: flag capabilities that are attractive but do not materially serve the core value proposition.",
+  "Distinguish outcome metrics from vanity metrics whenever success criteria are defined.",
+]

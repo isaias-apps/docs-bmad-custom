@@ -1,0 +1,6 @@
+[workflow]
+persistent_facts = [
+  "Stories inherit the development principles mandated by the architecture spine (SOLID, DRY, KISS, YAGNI, Clean Code, TDD, security controls, coverage targets). Flag them only where a story's scope could plausibly tempt a shortcut against one.",
+  "Where a story has visual implementation scope, acceptance criteria reference existing DESIGN.md tokens and components instead of inventing new styling.",
+  "Never introduce functionality that is not justified by the PRD. Flag missing requirements instead of inventing them.",
+]
